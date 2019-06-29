@@ -9,6 +9,6 @@ This is my playground for implementing a few data structures and algorithms usin
 
 I am excited about this little project, as I recently attended a talk where I got my first real insight into TDD. 
 
-I am hoping to cover the following items:
-Sorts: heap, merge, quick
+I am hoping to cover the following items:<br>
+Sorts: heap, merge, quick<br>
 Structs: queue, heap, stack
