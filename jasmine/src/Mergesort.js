@@ -2,6 +2,6 @@ function Mergesort() {
 }
 
 Mergesort.prototype.sort = function (input) {
-
-    return [];
+    if (input.length < 2)
+        return input;
 }
