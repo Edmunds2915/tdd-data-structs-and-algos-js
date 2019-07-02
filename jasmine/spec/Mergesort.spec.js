@@ -22,7 +22,6 @@ describe("Mergesort", function() {
     it("should correctly sort an array of a greater size than 1"), function() {
         var input = randomDataSet(6, 0, 10);
         var output = mergesort.sort(input);
-        expect(output).toEqual(input);
+        expect(output).toEqual(input.sort()); //tested against the built-in JS sort() function
     }
-
 })
