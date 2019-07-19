@@ -1,7 +1,6 @@
-//Source: https://gist.github.com/UsabilityEtc/09305c0186509a6e05efe318983c2879s
+//Source: https://stackoverflow.com/questions/5836833/create-a-array-with-random-values
+function randomArray(n) {
+    return Array.from({length: n}, () => Math.floor(Math.random() * n));
+}
 
-export function randomDataSet(dataSetSize, minValue, maxValue) {
-    return new Array(dataSetSize).fill(0).map(function(n) {
-      return Math.random() * (maxValue - minValue) + minValue;
-    });
-  }
+console.log(randomArray(6).sort());
